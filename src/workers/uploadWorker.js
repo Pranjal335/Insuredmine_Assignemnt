@@ -1,7 +1,6 @@
 const { parentPort, workerData } = require("worker_threads");
 const XLSX = require("xlsx");
 const fs = require("fs");
-const path = require("path");
 
 const Agent = require("../models/Agent");
 const User = require("../models/User");
